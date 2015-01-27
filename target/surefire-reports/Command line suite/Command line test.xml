@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Naval-PC" name="com.seleniumtests.test.webDriverTest" tests="3" failures="1" timestamp="24 Jan 2015 22:40:34 GMT" time="24.622" errors="0">
+  <testcase name="softAssertion" time="1.567" classname="com.seleniumtests.test.webDriverTest">
+    <failure type="java.lang.AssertionError" message="java.lang.AssertionError: java.lang.AssertionError: ">
+      <![CDATA[java.lang.AssertionError: java.lang.AssertionError: java.lang.AssertionError: 
+	at com.seleniumtests.core.CustomVerification.checkForVerificationErrors(CustomVerification.java:60)
+	at com.seleniumtests.test.webDriverTest.softAssertion(webDriverTest.java:76)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:62)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:141)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testRegistrationNew" time="3.277" classname="com.seleniumtests.test.webDriverTest"/>
+  <testcase name="testRegistrationNew" time="4.592" classname="com.seleniumtests.test.webDriverTest"/>
+</testsuite>

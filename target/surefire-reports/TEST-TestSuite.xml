@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="TestSuite" time="25.078" errors="0" skipped="0">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="env.PROMPT" value="$P$G"/>
+    <property name="LOGONSERVER" value="\\MicrosoftAccount"/>
+    <property name="env.CONFIGSETROOT" value="C:\windows\ConfigSetRoot"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_25"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_25\lib\endorsed"/>
+    <property name="env.USERNAME" value="naval"/>
+    <property name="env.HUDSON_HOME" value="C:\Users\naval\.jenkins"/>
+    <property name="PSModulePath" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="USERDOMAIN" value="NAVAL-PC"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="env.COMPUTERNAME" value="NAVAL-PC"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="env.NODE_NAME" value="master"/>
+    <property name="java.version" value="1.8.0_25"/>
+    <property name="JOB_NAME" value="SeleniumProject"/>
+    <property name="COMPUTERNAME" value="NAVAL-PC"/>
+    <property name="env.NODE_LABELS" value="master"/>
+    <property name="env.JENKINS_SERVER_COOKIE" value="828cd89fd0dad2db"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="env.USERPROFILE" value="C:\Users\naval"/>
+    <property name="user.name" value="naval"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\windows"/>
+    <property name="env.LOCALAPPDATA" value="C:\Users\naval\AppData\Local"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel"/>
+    <property name="env.COMMONPROGRAMW6432" value="C:\Program Files\Common Files"/>
+    <property name="surefire.test.class.path" value="C:\Users\naval\Eclipse Workspace\testMavenApp\target\test-classes;C:\Users\naval\Eclipse Workspace\testMavenApp\target\classes;C:\Users\naval\.m2\repository\org\seleniumhq\selenium\selenium-java\2.44.0\selenium-java-2.44.0.jar;C:\Users\naval\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.44.0\selenium-chrome-driver-2.44.0.jar;C:\Users\naval\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.44.0\selenium-remote-driver-2.44.0.jar;C:\Users\naval\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\naval\.m2\repository\com\google\code\gson\gson\2.3\gson-2.3.jar;C:\Users\naval\.m2\repository\org\seleniumhq\selenium\selenium-api\2.44.0\selenium-api-2.44.0.jar;C:\Users\naval\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\naval\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.44.0\selenium-htmlunit-driver-2.44.0.jar;C:\Users\naval\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.15\htmlunit-2.15.jar;C:\Users\naval\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\naval\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\naval\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\naval\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\naval\.m2\repository\org\apache\httpcomponents\httpmime\4.3.3\httpmime-4.3.3.jar;C:\Users\naval\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\naval\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.15\htmlunit-core-js-2.15.jar;C:\Users\naval\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\naval\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\naval\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.21\nekohtml-1.9.21.jar;C:\Users\naval\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.14\cssparser-0.9.14.jar;C:\Users\naval\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\naval\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\naval\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.15.v20140411\jetty-websocket-8.1.15.v20140411.jar;C:\Users\naval\.m2\repository\org\eclipse\jetty\jetty-util\8.1.15.v20140411\jetty-util-8.1.15.v20140411.jar;C:\Users\naval\.m2\repository\org\eclipse\jetty\jetty-io\8.1.15.v20140411\jetty-io-8.1.15.v20140411.jar;C:\Users\naval\.m2\repository\org\eclipse\jetty\jetty-http\8.1.15.v20140411\jetty-http-8.1.15.v20140411.jar;C:\Users\naval\.m2\repository\org\apache\httpcomponents\httpclient\4.3.4\httpclient-4.3.4.jar;C:\Users\naval\.m2\repository\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;C:\Users\naval\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.44.0\selenium-firefox-driver-2.44.0.jar;C:\Users\naval\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\naval\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\naval\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.44.0\selenium-ie-driver-2.44.0.jar;C:\Users\naval\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\naval\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\naval\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.44.0\selenium-safari-driver-2.44.0.jar;C:\Users\naval\.m2\repository\org\seleniumhq\selenium\selenium-support\2.44.0\selenium-support-2.44.0.jar;C:\Users\naval\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\naval\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\naval\.m2\repository\org\testng\testng\6.1.1\testng-6.1.1.jar;C:\Users\naval\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\naval\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\naval\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\naval\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\naval\AppData\Local"/>
+    <property name="user.timezone" value="America/Regina"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-SeleniumProject-3"/>
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="env.HOME" value="C:\Users\naval"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Users\naval\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Mavan C:\Users\naval\.jenkins\war\WEB-INF\lib\remoting-2.49.jar C:\Users\naval\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Users\naval\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 55939"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="env.NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="JENKINS_SERVER_COOKIE" value="828cd89fd0dad2db"/>
+    <property name="env.APPDATA" value="C:\Users\naval\AppData\Roaming"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="Path" value="C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files\nodejs;C:\Users\naval\AppData\Local\Android\sdk\platform-tools;C:\Users\naval\AppData\Local\Android\sdk\tools;D:\Softwares\apache-ant-1.9.4-bin\apache-ant-1.9.4\bin;C:\Program Files\apache-maven-3.2.5\bin;C:\Users\naval\AppData\Roaming\npm"/>
+    <property name="env.WINDIR" value="C:\windows"/>
+    <property name="env.BUILD_TAG" value="jenkins-SeleniumProject-3"/>
+    <property name="java.io.tmpdir" value="C:\Users\naval\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\naval\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="
+"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/SeleniumProject/3/"/>
+    <property name="M2_HOME" value="C:\Users\naval\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Mavan"/>
+    <property name="env.COMMONPROGRAMFILES" value="C:\Program Files\Common Files"/>
+    <property name="=C:" value="C:\Users\naval\Eclipse Workspace\testMavenApp"/>
+    <property name="ERROR_CODE" value="1"/>
+    <property name="env.JOB_NAME" value="SeleniumProject"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="env.BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="localRepository" value="C:\Users\naval\.m2\repository"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="env.BUILD_URL" value="http://localhost:8080/job/SeleniumProject/3/"/>
+    <property name="env.M2_HOME" value="C:\Users\naval\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Mavan"/>
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="NAVAL-PC"/>
+    <property name="HUDSON_SERVER_COOKIE" value="828cd89fd0dad2db"/>
+    <property name="MAVEN_HOME" value="C:\Users\naval\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Mavan"/>
+    <property name="env.LOGONSERVER" value="\\MicrosoftAccount"/>
+    <property name="env.PSMODULEPATH" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\naval\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="env.HUDSON_SERVER_COOKIE" value="828cd89fd0dad2db"/>
+    <property name="env.PUBLIC" value="C:\Users\Public"/>
+    <property name="env.USERDOMAIN" value="NAVAL-PC"/>
+    <property name="env.PROCESSOR_LEVEL" value="6"/>
+    <property name="env.PROGRAMFILES(X86)" value="C:\Program Files (x86)"/>
+    <property name="HOMEPATH" value="\Users\naval"/>
+    <property name="env.=EXITCODE" value="00000001"/>
+    <property name="env.BUILD_NUMBER" value="3"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="env.TMP" value="C:\Users\naval\AppData\Local\Temp"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="3"/>
+    <property name="env.JOB_URL" value="http://localhost:8080/job/SeleniumProject/"/>
+    <property name="env.OS" value="Windows_NT"/>
+    <property name="maven3.interceptor" value="C:\Users\naval\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
+    <property name="java.library.path" value="C:\ProgramData\Oracle\Java\javapath;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\naval\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Mavan/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files\nodejs;C:\Users\naval\AppData\Local\Android\sdk\platform-tools;C:\Users\naval\AppData\Local\Android\sdk\tools;D:\Softwares\apache-ant-1.9.4-bin\apache-ant-1.9.4\bin;C:\Program Files\apache-maven-3.2.5\bin;C:\Users\naval\AppData\Roaming\npm;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="env.PROGRAMW6432" value="C:\Program Files"/>
+    <property name="env.PATH" value="C:\Users\naval\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Mavan/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files\nodejs;C:\Users\naval\AppData\Local\Android\sdk\platform-tools;C:\Users\naval\AppData\Local\Android\sdk\tools;D:\Softwares\apache-ant-1.9.4-bin\apache-ant-1.9.4\bin;C:\Program Files\apache-maven-3.2.5\bin;C:\Users\naval\AppData\Roaming\npm"/>
+    <property name="env.HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="env.JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="basedir" value="C:\Users\naval\Eclipse Workspace\testMavenApp"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/SeleniumProject/"/>
+    <property name="env.JENKINS_HOME" value="C:\Users\naval\.jenkins"/>
+    <property name="env.HOMEDRIVE" value="C:"/>
+    <property name="env.SYSTEMROOT" value="C:\windows"/>
+    <property name="env.COMSPEC" value="C:\windows\system32\cmd.exe"/>
+    <property name="JENKINS_HOME" value="C:\Users\naval\.jenkins"/>
+    <property name="BUILD_ID" value="3"/>
+    <property name="TEMP" value="C:\Users\naval\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_25\bin"/>
+    <property name="env.SYSTEMDRIVE" value="C:"/>
+    <property name="M2" value="C:\Program Files\apache-maven-3.2.5\bin"/>
+    <property name="easyplussdk" value="&quot;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin&quot;"/>
+    <property name="env.PROCESSOR_REVISION" value="4501"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="4501"/>
+    <property name="configsetroot" value="C:\windows\ConfigSetRoot"/>
+    <property name="HUDSON_HOME" value="C:\Users\naval\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\naval\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Mavan/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="NAVAL-PC"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="env.PROGRAMFILES" value="C:\Program Files"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_25"/>
+    <property name="env.PROGRAMDATA" value="C:\ProgramData"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="env.MAVEN_HOME" value="C:\Users\naval\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Mavan"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\naval"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_25\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\naval"/>
+    <property name="USERNAME" value="naval"/>
+    <property name="env.ERROR_CODE" value="1"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_25"/>
+    <property name="user.dir" value="C:\Users\naval\Eclipse Workspace\testMavenApp"/>
+    <property name="env.COMMONPROGRAMFILES(X86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="env.FP_NO_HOST_CHECK" value="NO"/>
+    <property name="TMP" value="C:\Users\naval\AppData\Local\Temp"/>
+    <property name="env.M2" value="C:\Program Files\apache-maven-3.2.5\bin"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.version" value="25.25-b02"/>
+    <property name="java.class.path" value="C:\Users\naval\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Users\naval\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Mavan\boot\plexus-classworlds-2.5.1.jar;C:\Users\naval\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Mavan/conf/logging"/>
+    <property name="env.HOMEPATH" value="\Users\naval"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.build.version" value="Apache Maven 3.2.2 (45f7c06d68e745d05611f7fd14efb6594181933e; 2014-06-17T07:51:42-06:00)"/>
+    <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
+    <property name="WORKSPACE" value="C:\Users\naval\.jenkins\workspace\SeleniumProject"/>
+    <property name="env.SESSIONNAME" value="Console"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="SystemRoot" value="C:\windows"/>
+    <property name="env.BUILD_ID" value="3"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="env.EASYPLUSSDK" value="&quot;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin&quot;"/>
+    <property name="java.runtime.version" value="1.8.0_25-b18"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_25\lib\resources.jar;C:\Program Files\Java\jre1.8.0_25\lib\rt.jar;C:\Program Files\Java\jre1.8.0_25\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_25\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_25\lib\jce.jar;C:\Program Files\Java\jre1.8.0_25\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_25\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_25\classes"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="env.WORKSPACE" value="C:\Users\naval\.jenkins\workspace\SeleniumProject"/>
+    <property name="maven.version" value="3.2.2"/>
+    <property name="env.TEMP" value="C:\Users\naval\AppData\Local\Temp"/>
+    <property name="user.country" value="US"/>
+    <property name="=ExitCode" value="00000001"/>
+    <property name="env.EXECUTOR_NUMBER" value="1"/>
+    <property name="maven.home" value="C:\Users\naval\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Mavan"/>
+    <property name="HOME" value="C:\Users\naval"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="env.HUDSON_COOKIE" value="92cbbc4b-9173-4596-9703-b2543276e002"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="com.seleniumtests.test.webDriverTest" name="softAssertion" time="1.567">
+    <failure message="java.lang.AssertionError: java.lang.AssertionError: " type="java.lang.AssertionError">java.lang.AssertionError: java.lang.AssertionError: java.lang.AssertionError: 
+	at org.testng.Assert.fail(Assert.java:89)
+	at com.seleniumtests.core.CustomVerification.checkForVerificationErrors(CustomVerification.java:60)
+	at com.seleniumtests.test.webDriverTest.softAssertion(webDriverTest.java:76)
+</failure>
+  </testcase>
+  <testcase classname="com.seleniumtests.test.webDriverTest" name="testRegistrationNew" time="3.277"/>
+  <testcase classname="com.seleniumtests.test.webDriverTest" name="testRegistrationNew" time="4.592"/>
+</testsuite>

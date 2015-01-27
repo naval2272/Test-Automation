@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.09 sec <<< FAILURE!
+softAssertion(com.seleniumtests.test.webDriverTest)  Time elapsed: 1.571 sec  <<< FAILURE!
+java.lang.AssertionError: java.lang.AssertionError: java.lang.AssertionError: 
+	at org.testng.Assert.fail(Assert.java:89)
+	at com.seleniumtests.core.CustomVerification.checkForVerificationErrors(CustomVerification.java:60)
+	at com.seleniumtests.test.webDriverTest.softAssertion(webDriverTest.java:76)
+

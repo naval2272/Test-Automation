@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Rgistration Test" verbose="1" parallel="tests">
+    <test name="wiki in FF">
+        <parameter name="browser" value="ff"></parameter>
+        <classes>
+            <class name="com.seleniumtests.test.webDriverTest" />
+        </classes>
+    </test>
+   <!--  <test name="wiki in Chrome">
+        <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+            <class name="com.seleniumtests.test.webDriverTest" />
+        </classes>
+    </test>   -->
+    <test name="wiki in Internet Explorer">
+        <parameter name="browser" value="IE"></parameter>
+        <classes>
+            <class name="com.seleniumtests.test.webDriverTest" />
+        </classes>
+    </test> 
+</suite>

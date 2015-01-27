@@ -1,0 +1,6 @@
+com\seleniumtests\core\CustomVerification.class
+com\seleniumtests\pageobject\AccountCreationPage.class
+com\seleniumtests\dataobject\RegistrationData.class
+com\seleniumtests\pageobject\NewRegistrationPage.class
+com\seleniumtests\core\SelTestCase.class
+com\seleniumtests\core\TestRegistration.class
